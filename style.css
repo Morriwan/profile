@@ -45,6 +45,7 @@ img {
   color: #191919;
 }
 
+
 .list-inline > li {
   display: inline-block;
   padding: 0px 20px;
@@ -81,4 +82,26 @@ img {
   .container {
     width: 300px;
   }
+}
+
+#custom-text {
+  border-radius: 6px;
+  box-shadow: 0 10px 30px #332941;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid lightgray;
+  margin: 10px;
+  background-color: #FAEED1;
+}
+
+#invisible-text {
+  display: none;
+}
+
+#custom-text:hover #invisible-text {
+  display: block;
+}
+
+#custom-text:hover #visible-text {
+  display: none;
 }
